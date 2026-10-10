@@ -11,7 +11,7 @@ Ta polityka opisuje, jakie dane przetwarza aplikacja **Moja Modlitwa** na iOS i 
 
 ## Administrator danych
 
-Administratorem danych jest Piotr Torczynski, autor Aplikacji. Kontakt: **[ADRES E-MAIL – DO UZUPEŁNIENIA]**.
+Administratorem danych jest Piotr Torczynski, autor Aplikacji. Kontakt: [mojamodlitwa.app@gmail.com](mailto:mojamodlitwa.app@gmail.com).
 
 ## Co zostaje w Twoim telefonie
 
