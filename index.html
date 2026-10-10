@@ -8,7 +8,9 @@
   <meta property="og:title" content="Moja Modlitwa">
   <meta property="og:description" content="Codzienny towarzysz modlitwy: Słowo Boże na dziś, różaniec, nowenny i formacja.">
   <meta property="og:image" content="assets/ikona.png">
-  <link rel="icon" href="assets/favicon.png">
+  <link rel="icon" href="assets/ikona.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/ikona.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -57,20 +59,13 @@
     nav a:hover { color: var(--accent); }
 
     .hero { padding-top: 48px; padding-bottom: 56px; text-align: center; }
-    .hero img.icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: var(--shadow); }
+    .hero img.icon { width: 112px; height: 112px; box-shadow: var(--shadow); border-radius: 25px; }
     .hero h1 {
       font-family: "Source Serif 4", Georgia, serif; font-weight: 600;
       font-size: clamp(36px, 6vw, 56px); line-height: 1.1; margin: 28px 0 12px;
     }
     .hero p.lead { font-size: clamp(18px, 2.4vw, 21px); color: var(--muted); max-width: 640px; margin: 0 auto 28px; }
-    .stores { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .store {
-      display: inline-flex; flex-direction: column; align-items: flex-start;
-      padding: 10px 18px; border-radius: 14px; border: 1px solid var(--border);
-      background: var(--card); color: var(--text); text-decoration: none; min-width: 170px;
-    }
-    .store small { color: var(--muted); font-size: 12px; }
-    .store strong { font-size: 17px; }
+    .soon { margin: 0; font-weight: 600; color: var(--accent); letter-spacing: 0.02em; }
     .tags { margin-top: 22px; color: var(--muted); font-size: 15px; }
     .tags span { white-space: nowrap; display: inline-block; }
     .tags span + span::before { content: "·"; margin: 0 10px; color: var(--border); }
@@ -129,7 +124,7 @@
 </head>
 <body>
   <header class="wrap top">
-    <a class="brand" href="./"><img src="assets/ikona.png" alt=""> Moja Modlitwa</a>
+    <a class="brand" href="./"><img src="assets/ikona.svg" alt=""> Moja Modlitwa</a>
     <nav>
       <a href="#funkcje">Funkcje</a>
       <a href="#kontakt">Kontakt</a>
@@ -139,13 +134,11 @@
 
   <main>
     <section class="wrap hero">
-      <img class="icon" src="assets/ikona.png" alt="Ikona aplikacji Moja Modlitwa">
+      <img class="icon" src="assets/ikona.svg" alt="Ikona aplikacji Moja Modlitwa">
       <h1>Codzienny towarzysz modlitwy</h1>
       <p class="lead">Słowo Boże na dziś, modlitwa rano i wieczorem, różaniec, nowenny i formacja we wspólnocie – w jednej spokojnej aplikacji.</p>
-      <div class="stores">
-        <span class="store"><small>Wkrótce w</small><strong>App Store</strong></span>
-        <span class="store"><small>Wkrótce w</small><strong>Google Play</strong></span>
-      </div>
+      <!-- Plain text until the store links exist; real store buttons go here after the release. -->
+      <p class="soon">Wkrótce na iPhone’a i Androida</p>
       <p class="tags"><span>Bezpłatna</span><span>Bez reklam</span><span>Bez konta</span><span>Działa offline</span></p>
     </section>
 
