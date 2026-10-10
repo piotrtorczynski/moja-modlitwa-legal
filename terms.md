@@ -3,6 +3,8 @@ title: Regulamin – Moja Modlitwa
 permalink: /terms/
 ---
 
+[English version](../en/terms/)
+
 # Regulamin
 
 Obowiązuje od: 10 października 2026 r.

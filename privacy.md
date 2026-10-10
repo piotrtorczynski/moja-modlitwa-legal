@@ -3,6 +3,8 @@ title: Polityka prywatności – Moja Modlitwa
 permalink: /privacy/
 ---
 
+[English version](../en/privacy/)
+
 # Polityka prywatności
 
 Obowiązuje od: 10 października 2026 r.
