@@ -38,9 +38,15 @@ Te dane nie zawierają Twojego imienia, adresu e-mail ani treści intencji i not
 
 Wersja na Androida obecnie nie wysyła statystyk ani raportów o błędach. Jeśli to się zmieni, zaktualizujemy tę politykę przed wydaniem takiej wersji.
 
+## Wiadomości do nas
+
+W Profilu możesz napisać do nas, zaproponować zmianę lub zgłosić błąd. Aplikacja przygotowuje wtedy wiadomość w Twojej aplikacji pocztowej i nic nie wysyła sama. Pod miejscem na treść dopisuje wersję aplikacji, wersję systemu, model telefonu, język, wybraną formację (DK, END lub brak) i to, z której opcji piszesz. Widzisz te informacje przed wysłaniem i możesz je usunąć. Wiadomość trafia razem z Twoim adresem e-mail na skrzynkę mojamodlitwa.app@gmail.com w usłudze Gmail (Google). Używamy jej tylko po to, żeby odpowiedzieć i poprawić Aplikację, i usuwamy ją, gdy sprawa jest załatwiona.
+
 ## Podstawa prawna
 
 Dane analityczne i raporty o błędach przetwarzamy na podstawie prawnie uzasadnionego interesu, jakim jest utrzymanie i rozwój Aplikacji (art. 6 ust. 1 lit. f RODO).
+
+Wiadomości, które do nas wysyłasz, przetwarzamy, żeby na nie odpowiedzieć (art. 6 ust. 1 lit. f RODO).
 
 ## Twoje prawa
 
