@@ -34,10 +34,12 @@ We have no access to this data. Reminders are scheduled on the phone and do not 
 
 **Statistics and crash reports (iOS only).** The iOS version uses Google Firebase services:
 
-- **Firebase Analytics** – information about which features you use, e.g. screens opened, novenas or rosaries started and finished, prayers viewed, the type of formation chosen, the category of an added intention (without its content), appearance settings. Plus technical data: a random installation identifier, device model, system and app version, approximate country or region derived from the IP address.
+- **Firebase Analytics** – information about which features you use, e.g. screens opened, novenas or rosaries started and finished, prayers viewed, books of the Bible opened, lectio divina started and finished, formation commitments recorded, the type of formation chosen, the category of an added intention (without its content), the fact that search was used (without the words typed), opening the App from a widget, shortcut or reminder, the number of widgets added, reminders turned on, and appearance settings. Plus technical data: a random installation identifier, device model, system and app version, approximate country or region derived from the IP address.
 - **Firebase Crashlytics** – crash reports: the state of the App at the time of the error, device model, system and app version, a random installation identifier.
 
-This data does not include your name, e-mail address, or the content of your intentions and notes. It is used only to improve the App and to see which features are used. We do not use it for advertising and do not sell it. We keep analytics data for no longer than 14 months and crash reports for 90 days. Google may process this data outside the European Economic Area on the basis of standard contractual clauses. Details: [Firebase – Privacy and Security](https://firebase.google.com/support/privacy).
+This data does not include your name, e-mail address, the content of your intentions and notes, or what you search for. It is used only to improve the App and to see which features are used. We do not use it for advertising and do not sell it. We keep analytics data for no longer than 14 months and crash reports for 90 days. Google may process this data outside the European Economic Area on the basis of standard contractual clauses. Details: [Firebase – Privacy and Security](https://firebase.google.com/support/privacy).
+
+You can turn usage statistics and crash reports off separately at any time in Profile, under “Prywatność” (Privacy). When statistics are off, the App stops sending them and starts using a new random installation identifier. When crash reports are off, unsent reports are deleted from the device.
 
 The Android version currently sends no statistics or crash reports. If this changes, we will update this policy before releasing such a version.
 

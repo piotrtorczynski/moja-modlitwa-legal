@@ -33,10 +33,12 @@ Nie mamy do tych danych dostępu. Przypomnienia są planowane w telefonie i nie 
 
 **Statystyki i raporty błędów (tylko iOS).** Wersja na iOS korzysta z usług Google Firebase:
 
-- **Firebase Analytics** – informacje o tym, z których funkcji korzystasz, np. otwarte ekrany, rozpoczęte i ukończone nowenny lub różaniec, przeglądane modlitwy, wybrany typ formacji, kategoria dodanej intencji (bez jej treści), ustawienia wyglądu. Do tego dane techniczne: losowy identyfikator instalacji, model urządzenia, wersja systemu i aplikacji, przybliżony kraj lub region ustalony na podstawie adresu IP.
+- **Firebase Analytics** – informacje o tym, z których funkcji korzystasz, np. otwarte ekrany, rozpoczęte i ukończone nowenny lub różaniec, przeglądane modlitwy, otwierane księgi Biblii, rozpoczęte i ukończone lectio divina, zapisane zobowiązania formacyjne, wybrany typ formacji, kategoria dodanej intencji (bez jej treści), to, że skorzystano z wyszukiwania (bez wpisanych słów), otwarcie Aplikacji z widżetu, skrótu lub przypomnienia, liczba dodanych widżetów, włączone przypomnienia i ustawienia wyglądu. Do tego dane techniczne: losowy identyfikator instalacji, model urządzenia, wersja systemu i aplikacji, przybliżony kraj lub region ustalony na podstawie adresu IP.
 - **Firebase Crashlytics** – raporty o awariach: stan aplikacji w chwili błędu, model urządzenia, wersja systemu i aplikacji, losowy identyfikator instalacji.
 
-Te dane nie zawierają Twojego imienia, adresu e-mail ani treści intencji i notatek. Służą wyłącznie do poprawiania Aplikacji i sprawdzania, które funkcje są używane. Nie wykorzystujemy ich do reklam i nie sprzedajemy. Dane analityczne przechowujemy nie dłużej niż 14 miesięcy, raporty o awariach 90 dni. Google może przetwarzać te dane poza Europejskim Obszarem Gospodarczym na podstawie standardowych klauzul umownych. Szczegóły: [Firebase – prywatność i bezpieczeństwo](https://firebase.google.com/support/privacy).
+Te dane nie zawierają Twojego imienia, adresu e-mail, treści intencji i notatek ani tego, czego szukasz. Służą wyłącznie do poprawiania Aplikacji i sprawdzania, które funkcje są używane. Nie wykorzystujemy ich do reklam i nie sprzedajemy. Dane analityczne przechowujemy nie dłużej niż 14 miesięcy, raporty o awariach 90 dni. Google może przetwarzać te dane poza Europejskim Obszarem Gospodarczym na podstawie standardowych klauzul umownych. Szczegóły: [Firebase – prywatność i bezpieczeństwo](https://firebase.google.com/support/privacy).
+
+Statystyki użycia i raporty o błędach możesz w każdej chwili wyłączyć osobno w Profilu, w sekcji „Prywatność”. Po wyłączeniu statystyk Aplikacja przestaje je wysyłać i zaczyna używać nowego losowego identyfikatora instalacji. Po wyłączeniu raportów o błędach niewysłane raporty są usuwane z urządzenia.
 
 Wersja na Androida obecnie nie wysyła statystyk ani raportów o błędach. Jeśli to się zmieni, zaktualizujemy tę politykę przed wydaniem takiej wersji.
 
