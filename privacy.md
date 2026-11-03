@@ -21,7 +21,7 @@ Aplikacja nie wymaga konta ani logowania. To, co w niej zapisujesz, przechowujem
 
 - intencje modlitewne,
 - postępy nowenn i różańca,
-- zobowiązania i spotkania formacji (Domowy Kościół, Equipes Notre-Dame),
+- zobowiązania i spotkania formacji (Equipes Notre-Dame),
 - ulubione modlitwy, zaznaczenia w Piśmie Świętym i notatki z lectio divina,
 - ustawienia, w tym godziny przypomnień.
 

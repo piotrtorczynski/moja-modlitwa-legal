@@ -22,7 +22,7 @@ The App does not require an account or sign-in. What you save in it is stored on
 
 - prayer intentions,
 - novena and rosary progress,
-- formation commitments and meetings (Domestic Church, Equipes Notre-Dame),
+- formation commitments and meetings (Equipes Notre-Dame),
 - favourite prayers, highlights in Holy Scripture and lectio divina notes,
 - settings, including reminder times.
 
