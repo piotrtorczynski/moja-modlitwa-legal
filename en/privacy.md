@@ -32,7 +32,7 @@ We have no access to this data. Reminders are scheduled on the phone and do not 
 
 **Liturgical readings.** The App downloads the readings of the day from Evangelizo (feed.evangelizo.org). The request contains only the date and the language. Like any internet connection, it reveals your IP address to the server. Evangelizo processes it under its own privacy policy.
 
-**Statistics and crash reports (iOS only).** The iOS version uses Google Firebase services:
+**Statistics and crash reports.** The App on iOS and Android uses Google Firebase services:
 
 - **Firebase Analytics** – information about which features you use, e.g. screens opened, novenas or rosaries started and finished, prayers viewed, books of the Bible opened, lectio divina started and finished, formation commitments recorded, the type of formation chosen, the category of an added intention (without its content), the fact that search was used (without the words typed), opening the App from a widget, shortcut or reminder, the number of widgets added, reminders turned on, and appearance settings. Plus technical data: a random installation identifier, device model, system and app version, approximate country or region derived from the IP address.
 - **Firebase Crashlytics** – crash reports: the state of the App at the time of the error, device model, system and app version, a random installation identifier.
@@ -41,7 +41,7 @@ This data does not include your name, e-mail address, the content of your intent
 
 You can turn usage statistics and crash reports off separately at any time in Profile, under “Prywatność” (Privacy). When statistics are off, the App stops sending them and starts using a new random installation identifier. When crash reports are off, unsent reports are deleted from the device.
 
-The Android version currently sends no statistics or crash reports. If this changes, we will update this policy before releasing such a version.
+The App does not use the advertising identifier (IDFA on iOS, the Google advertising ID on Android).
 
 ## Messages to us
 

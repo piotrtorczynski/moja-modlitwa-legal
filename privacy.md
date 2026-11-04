@@ -31,7 +31,7 @@ Nie mamy do tych danych dostępu. Przypomnienia są planowane w telefonie i nie 
 
 **Czytania liturgiczne.** Aplikacja pobiera czytania dnia z serwisu Evangelizo (feed.evangelizo.org). Zapytanie zawiera tylko datę i język. Jak każde połączenie internetowe, ujawnia serwerowi Twój adres IP. Evangelizo przetwarza go według własnej polityki prywatności.
 
-**Statystyki i raporty błędów (tylko iOS).** Wersja na iOS korzysta z usług Google Firebase:
+**Statystyki i raporty błędów.** Aplikacja na iOS i na Androida korzysta z usług Google Firebase:
 
 - **Firebase Analytics** – informacje o tym, z których funkcji korzystasz, np. otwarte ekrany, rozpoczęte i ukończone nowenny lub różaniec, przeglądane modlitwy, otwierane księgi Biblii, rozpoczęte i ukończone lectio divina, zapisane zobowiązania formacyjne, wybrany typ formacji, kategoria dodanej intencji (bez jej treści), to, że skorzystano z wyszukiwania (bez wpisanych słów), otwarcie Aplikacji z widżetu, skrótu lub przypomnienia, liczba dodanych widżetów, włączone przypomnienia i ustawienia wyglądu. Do tego dane techniczne: losowy identyfikator instalacji, model urządzenia, wersja systemu i aplikacji, przybliżony kraj lub region ustalony na podstawie adresu IP.
 - **Firebase Crashlytics** – raporty o awariach: stan aplikacji w chwili błędu, model urządzenia, wersja systemu i aplikacji, losowy identyfikator instalacji.
@@ -40,7 +40,7 @@ Te dane nie zawierają Twojego imienia, adresu e-mail, treści intencji i notate
 
 Statystyki użycia i raporty o błędach możesz w każdej chwili wyłączyć osobno w Profilu, w sekcji „Prywatność”. Po wyłączeniu statystyk Aplikacja przestaje je wysyłać i zaczyna używać nowego losowego identyfikatora instalacji. Po wyłączeniu raportów o błędach niewysłane raporty są usuwane z urządzenia.
 
-Wersja na Androida obecnie nie wysyła statystyk ani raportów o błędach. Jeśli to się zmieni, zaktualizujemy tę politykę przed wydaniem takiej wersji.
+Aplikacja nie korzysta z identyfikatora reklamowego (IDFA na iOS, identyfikator reklamowy Google na Androidzie).
 
 ## Wiadomości do nas
 
