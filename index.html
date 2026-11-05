@@ -65,7 +65,23 @@
       font-size: clamp(36px, 6vw, 56px); line-height: 1.1; margin: 28px 0 12px;
     }
     .hero p.lead { font-size: clamp(18px, 2.4vw, 21px); color: var(--muted); max-width: 640px; margin: 0 auto 28px; }
-    .soon { margin: 0; font-weight: 600; color: var(--accent); letter-spacing: 0.02em; }
+    .stores { display: flex; justify-content: center; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .stores a, .stores span { display: block; line-height: 0; }
+    .stores img.apple { height: 48px; width: auto; }
+    /* The Play PNG carries its own clear space; trim it so both badges look the same height. */
+    .stores img.google { height: 62.5px; width: auto; margin: -7.25px 0; }
+    .stores .pending { position: relative; }
+    .stores .pending img { opacity: 0.45; }
+    .stores .pending::after {
+      content: "wkrótce"; position: absolute; right: -10px; top: -14px; padding: 1px 8px; border-radius: 999px;
+      background: var(--accent); color: #fff; font: 600 12px/1.6 Inter, system-ui, sans-serif;
+    }
+    .badge-dark { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .badge-light { display: none; }
+      .badge-dark { display: block; }
+      .stores .pending::after { color: #1d1b20; }
+    }
     .tags { margin-top: 22px; color: var(--muted); font-size: 15px; }
     .tags span { white-space: nowrap; display: inline-block; }
     .tags span + span::before { content: "·"; margin: 0 10px; color: var(--border); }
@@ -113,6 +129,7 @@
     footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
     footer .wrap { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
     footer a { color: var(--muted); margin-right: 16px; }
+    footer .trademarks { flex-basis: 100%; margin: 8px 0 0; font-size: 12px; }
 
     @media (max-width: 760px) {
       nav { display: none; }
@@ -137,8 +154,17 @@
       <img class="icon" src="assets/ikona.svg" alt="Ikona aplikacji Moja Modlitwa">
       <h1>Codzienny towarzysz modlitwy</h1>
       <p class="lead">Słowo Boże na dziś, modlitwa rano i wieczorem, różaniec, nowenny i formacja we wspólnocie – w jednej spokojnej aplikacji.</p>
-      <!-- Plain text until the store links exist; real store buttons go here after the release. -->
-      <p class="soon">Wkrótce na iPhone’a i Androida</p>
+      <div class="stores">
+        <a href="https://apps.apple.com/pl/app/id6825922318" aria-label="Pobierz w App Store">
+          <img class="apple badge-light" src="assets/app-store-black.svg" alt="Pobierz w App Store">
+          <img class="apple badge-dark" src="assets/app-store-white.svg" alt="Pobierz w App Store">
+        </a>
+        <!-- Not on Google Play yet: when it is, swap this span for
+             <a href="https://play.google.com/store/apps/details?id=com.smartapps.mypray"> and drop "pending". -->
+        <span class="pending" aria-label="Google Play – wkrótce">
+          <img class="google" src="assets/google-play.png" alt="Pobierz z Google Play – wkrótce">
+        </span>
+      </div>
       <p class="tags"><span>Bezpłatna</span><span>Bez reklam</span><span>Bez konta</span><span>Działa offline</span></p>
     </section>
 
@@ -215,6 +241,7 @@
     <div class="wrap">
       <div><a href="privacy/">Polityka prywatności</a><a href="terms/">Regulamin</a><a href="en/privacy/" lang="en">Privacy (EN)</a><a href="en/terms/" lang="en">Terms (EN)</a></div>
       <div>© 2026 Moja Modlitwa · iOS i Android</div>
+      <p class="trademarks">Apple i logo Apple są znakami towarowymi Apple Inc. zarejestrowanymi w USA i innych krajach. App Store jest znakiem usługowym Apple Inc. Google Play i logo Google Play są znakami towarowymi Google LLC.</p>
     </div>
   </footer>
 </body>
